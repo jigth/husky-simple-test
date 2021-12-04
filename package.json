@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "tst-fail": "echo \"Error: no test specified\"",
+    "tst": "echo \"All test passed :D\"",
+    "test-fail": "npm run tst",
+    "test": "npm run tst-fail && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
