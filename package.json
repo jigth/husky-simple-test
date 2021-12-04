@@ -6,8 +6,8 @@
   "scripts": {
     "tst-fail": "echo \"Error: no test specified\"",
     "tst": "echo \"All test passed :D\"",
-    "test-fail": "npm run tst",
-    "test": "npm run tst-fail && exit 1",
+    "test": "npm run tst",
+    "test-fail": "npm run tst-fail && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
